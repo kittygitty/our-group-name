@@ -1,0 +1,8 @@
+# This will pick a random name from the list.
+# The reason we need this is because then everyone gets a fair chance of
+# getting their name as our team name.
+import random
+
+names = ['nathan', 'bob', 'neil', 'daddy', 'dad-dad']
+print(random.choice(names))
+
